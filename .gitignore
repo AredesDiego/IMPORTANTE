@@ -1,0 +1,11 @@
+# Ignorar absolutamente todo por defecto
+*
+# Omitir carpetas (para que Git pueda buscar dentro de ellas)
+!*/
+
+# No ignores los archivos .h (en cualquier nivel de carpeta)
+!**/*.h
+
+# No ignores el propio archivo .gitignore
+!.gitignore
+
